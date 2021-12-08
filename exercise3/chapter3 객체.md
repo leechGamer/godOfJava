@@ -13,7 +13,7 @@ str
 ```
 public class Profile {
   public void setAge(int val) {
-    int age = val;
+    this.age = val;
   }
 }
 ```
@@ -29,13 +29,38 @@ public class Profile {
 }
 ```
 
-4.
+5.
 ```
+
 import java.io.*;
 
 public class Profile {
   public void printAge(int age) {
     System.out.println(age);
   }
+}
+
+6.
+```
+public static void main(String[] args) {
+  Profile profile = new Profile();
+}
+
+7.
+```
+public static void main(String[] args) {
+  Profile p = new Profile();
+  p.setName("Min");
+  p.setAge(20);
+}
+```
+8.
+```
+public static void main(String[] args) {
+  Profile p = new Profile();
+  p.setName("Min");
+  p.setAge(20);
+  p.printName();
+  p.printAge();
 }
 ```
