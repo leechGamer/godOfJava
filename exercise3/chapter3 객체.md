@@ -39,12 +39,15 @@ public class Profile {
     System.out.println(age);
   }
 }
+```
 
 6.
+
 ```
 public static void main(String[] args) {
   Profile profile = new Profile();
 }
+```
 
 7.
 ```
@@ -54,6 +57,7 @@ public static void main(String[] args) {
   p.setAge(20);
 }
 ```
+
 8.
 ```
 public static void main(String[] args) {
